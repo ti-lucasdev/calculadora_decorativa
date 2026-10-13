@@ -1,25 +1,28 @@
 {
   "expo": {
-    "name": "calculadora-decorativa",
+    "name": "Calculadora Decorativa",
     "slug": "calculadora-decorativa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/brand-icon.png",
+    "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.moldurasdecorativas.calculadora",
+      "icon": "./assets/brand-icon.png",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#050606",
+        "foregroundImage": "./assets/brand-adaptive-icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/brand-favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
